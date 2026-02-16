@@ -3,42 +3,408 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio | GitHub Pages</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Chanmini Weerakoon | AI & Data Science Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>👋 Hello, I'm [Your Name]</h1>
-            <p class="subtitle">Welcome to my website hosted on GitHub Pages!</p>
-        </header>
-        
-        <main>
-            <section class="about">
-                <h2>About Me</h2>
-                <p>I'm learning how to host websites on GitHub. This is my first deployed site!</p>
-            </section>
-            
-            <section class="projects">
-                <h2>My Projects</h2>
-                <div class="project-card">
-                    <h3>GitHub Pages Site</h3>
-                    <p>This very website - hosted for free on GitHub!</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">CW</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Chanmini Weerakoon</span>
+                </h1>
+                <h2 class="hero-subtitle">AI & Data Science Undergraduate</h2>
+                <p class="hero-description">
+                    Passionate about Machine Learning, NLP, and Data Engineering. Building intelligent solutions 
+                    with Python, AWS, Azure, and cutting-edge AI technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
                 </div>
-            </section>
-            
-            <section class="interactive">
-                <h2>Click the Button</h2>
-                <button onclick="showMessage()" class="btn">Click Me!</button>
-                <p id="message"></p>
-            </section>
-        </main>
-        
-        <footer>
-            <p>© 2024 | Hosted on GitHub Pages</p>
-        </footer>
-    </div>
-    
+                <div class="social-links">
+                    <a href="https://github.com/Chanminii" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/chanmini-weerakoon-593902335" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:chanmini.20232676@iit.ac.lk" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-blob"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a highly motivated Artificial Intelligence and Data Science undergraduate with hands-on 
+                        experience in machine learning and natural language processing (NLP).
+                    </p>
+                    <p>
+                        Proficient in <strong>Python, Java, SQL, AWS, Azure, and Snowflake</strong>, with a proven 
+                        track record in developing data-driven solutions such as time-series forecasting models and 
+                        predictive systems. I gained valuable industry experience in AI applications during my 
+                        internship at Dialog Axiata PLC.
+                    </p>
+                    <p>
+                        With strong analytical and problem-solving skills, complemented by experience in conducting 
+                        feasibility studies and research, I'm eager to contribute to innovation-driven tech 
+                        environments and grow into a role in data engineering or AI development.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <h3>5+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>3</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>5+</h3>
+                            <p>Certifications</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Sep 2025 - Feb 2026</div>
+                        <h3>Intern - Group Analytics & AI</h3>
+                        <h4>Dialog Axiata PLC | Colombo, Sri Lanka</h4>
+                        <p>Currently working on AI and analytics projects, applying machine learning and data science skills in a real-world telecommunications environment.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Oct 2023 - Dec 2023</div>
+                        <h3>Associate</h3>
+                        <h4>Deloitte Partners | Colombo, Sri Lanka</h4>
+                        <p>Worked as an associate, gaining exposure to professional consulting and business operations.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Jun 2023 - Oct 2023</div>
+                        <h3>Audit Associate - A4</h3>
+                        <h4>PricewaterhouseCoopers | Colombo, Sri Lanka</h4>
+                        <p>Participated in audit processes, developing analytical and attention-to-detail skills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud-Based Weather Data ETL Pipeline</h3>
+                    </div>
+                    <p>Designed and deployed a scalable ETL pipeline on AWS EC2 to automate the extraction, transformation, and loading of real-time weather data using Apache Airflow.</p>
+                    <div class="project-tags">
+                        <span class="tag">AWS EC2/S3</span>
+                        <span class="tag">Apache Airflow</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Boto3</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Chanminii" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-robot"></i>
+                        <h3>Chatbot Platform Feasibility Study</h3>
+                    </div>
+                    <p>Conducted comprehensive feasibility study comparing Microsoft Azure AI Foundry, AWS Bedrock Agent, and Microsoft Copilot Studio for enterprise chatbot development.</p>
+                    <div class="project-tags">
+                        <span class="tag">Azure AI</span>
+                        <span class="tag">AWS Bedrock</span>
+                        <span class="tag">Research</span>
+                        <span class="tag">TCO Analysis</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Chanminii" target="_blank" class="project-link">
+                            <i class="fas fa-file-alt"></i> Report
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-fish"></i>
+                        <h3>SHRIMPLE - Shrimp Farming Detector</h3>
+                    </div>
+                    <p>Developed a production-ready time-series forecasting model to predict quarterly shrimp demand using Random Forest Regressor optimized via GridSearchCV.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Scikit-learn</span>
+                        <span class="tag">GIS</span>
+                        <span class="tag">ML</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Chanminii" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Bank Marketing Prediction System</h3>
+                    </div>
+                    <p>Built a machine learning model to predict customer subscription to term deposits with ~89% accuracy using classification models and hyperparameter tuning.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Neural Networks</span>
+                        <span class="tag">Random Forest</span>
+                        <span class="tag">89% Accuracy</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Chanminii/Bank-Marketing-prediction" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-newspaper"></i>
+                        <h3>Personalized News Recommender</h3>
+                    </div>
+                    <p>Developed a Java-based personalized news recommendation system using NLP and machine learning with interactive GUI and multi-user support.</p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">JavaFX</span>
+                        <span class="tag">NLP</span>
+                        <span class="tag">ML</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Chanminii" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-book"></i>
+                        <h3>RAG Retrieval Methods Review</h3>
+                    </div>
+                    <p>Co-authored review paper on Retrieval-Augmented Generation systems, analyzing sparse, dense, hybrid, and multi-hop retrieval methods with performance benchmarks.</p>
+                    <div class="project-tags">
+                        <span class="tag">Research</span>
+                        <span class="tag">RAG</span>
+                        <span class="tag">NLP</span>
+                        <span class="tag">Benchmarking</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Chanminii" target="_blank" class="project-link">
+                            <i class="fas fa-file-pdf"></i> Paper
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">Java</span>
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">R</span>
+                        <span class="skill-badge">SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> AI & Machine Learning</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge">Machine Learning</span>
+                        <span class="skill-badge">Deep Learning</span>
+                        <span class="skill-badge">NLP</span>
+                        <span class="skill-badge">Neural Networks</span>
+                        <span class="skill-badge">Scikit-learn</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & Data Platforms</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge">AWS</span>
+                        <span class="skill-badge">Azure</span>
+                        <span class="skill-badge">Snowflake</span>
+                        <span class="skill-badge">Apache Airflow</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge">HTML/CSS</span>
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">React</span>
+                        <span class="skill-badge">Bootstrap</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge">Communication</span>
+                        <span class="skill-badge">Team Work</span>
+                        <span class="skill-badge">Problem Solving</span>
+                        <span class="skill-badge">Adaptability</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge">Snowflake</span>
+                        <span class="skill-badge">IBM Data Science</span>
+                        <span class="skill-badge">AWS Cloud</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>I'm always open to discussing new opportunities, collaborations, or just having a chat about AI and data science.</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:chanmini.20232676@iit.ac.lk">chanmini.20232676@iit.ac.lk</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+94707786399">+94 70 778 6399</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Colombo, Sri Lanka</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Chanmini Weerakoon. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/Chanminii" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/chanmini-weerakoon-593902335" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:chanmini.20232676@iit.ac.lk" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
